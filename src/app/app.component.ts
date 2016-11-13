@@ -1,6 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1 class="text-center">My First Angular App thanks udemy</h1>',
+  template: `
+            <header class="header">Weather app</header>
+            <weather-select-form></weather-select-form>
+            `,
+  styles: [require('../css/style.scss')],
+  encapsulation: ViewEncapsulation.None
+
 })  
 export class AppComponent { }
