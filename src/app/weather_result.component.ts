@@ -26,6 +26,6 @@ export class appWeatherResult {
  	weatherItem: WeatherItem;
 
 	 constructor(){
-		 this.weatherItem=new WeatherItem('Delhi', 'Rain', 32);
+		// this.weatherItem=new WeatherItem('Delhi', 'Rain', 32);
 	 }
  }
